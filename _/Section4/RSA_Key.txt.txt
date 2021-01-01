@@ -1,0 +1,6 @@
+sudo mkdir /var/lib/jenkins/.ssh/
+sudo chown jenkins:jenkins /var/lib/jenkins/.ssh
+sudo cp .ssh/id_rsa /var/lib/jenkins/.ssh/id_rsa
+sudo chown jenkins:jenkins /var/lib/jenkins/.ssh/id_rsa
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpSW5+UKuaUea8B7kZsUsASU1RiZAWeY16V6fNUvxFNEaIhBorCotrseZwIBanTIVbncdJdxtB9evd0a67bD89y0
